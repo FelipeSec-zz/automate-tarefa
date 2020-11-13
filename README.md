@@ -12,7 +12,7 @@ pip install docxtpl
 
 ## Uso
 
-Coloque o arquivo `tarefa.py` e `template.docx` no mesmo diretório, e insira o nome do aluno, no arquivo template, salvando-o.
+Coloque o arquivo `tarefa.py` e `template.docx` no mesmo diretório, e insira o nome do aluno no arquivo template, salvando-o.
 Inicie com 
 
 ~~~
