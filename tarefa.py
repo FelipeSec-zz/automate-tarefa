@@ -12,8 +12,6 @@ print(tabulate([['Matemática', 1], ['Química', 2], ['Biologia', 3], ['Portugu�
 
 prof = int(input("Qual o professor? "))
 
-print("\n")
-
 nome = input("Nome do arquivo: ")
 
 
