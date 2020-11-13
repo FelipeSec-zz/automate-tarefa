@@ -20,3 +20,5 @@ python tarefa.py
 ~~~
 
 E navegue pelas opções do programa, informando o número do professor, e o nome do arquivo.
+
+![https://i.imgur.com/YWk68z3.png]
