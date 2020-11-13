@@ -6,9 +6,13 @@ today = date.today()
 
 data  = today.strftime("%d/%m/%Y")
 
+print(" " "\n")
+
 print(tabulate([['Matemática', 1], ['Química', 2], ['Biologia', 3], ['Português', 4], ['Cultura Religiosa', 5], ['Filosofia', 6], ['Física', 7], ['Artes', 8], ['Literatura', 9], ['Geografia', 10], ['História', 11], ['Inglês', 12], ['Sociologia', 13],  ], headers=['Matéria', 'Num'], tablefmt='orgtbl'))
 
 prof = int(input("Qual o professor? "))
+
+print("\n")
 
 nome = input("Nome do arquivo: ")
 
