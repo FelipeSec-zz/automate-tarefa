@@ -9,3 +9,14 @@ Automatizar a criação de arquivos .docx baseado em um arquivo template
 ~~~python
 pip install docxtpl
 ~~~
+
+## Uso
+
+Coloque o arquivo `tarefa.py` e `template.docx` no mesmo diretório, e insira o nome do aluno, no arquivo template, salvando-o.
+Inicie com 
+
+~~~
+python tarefa.py
+~~~
+
+E navegue pelas opções do programa, informando o número do professor, e o nome do arquivo.
