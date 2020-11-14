@@ -49,7 +49,6 @@ def doc(n):
     # Salva o novo arquivo com o nome escolhido
     tmp.save("%s.docx" % (nome,))
 
-
 def red(p):
     # Acessa o modelo template para a redação, e guarda na variável temp
     temp = DocxTemplate("template1.docx")
