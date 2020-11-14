@@ -4,25 +4,12 @@ from docxtpl import DocxTemplate
 from tabulate import tabulate
 from datetime import date
 
-<<<<<<< HEAD
 #Pega a informação da data de hoje, e guarda na variável 'hoje'
 hoje = date.today()
-=======
-today = date.today()
-
-data  = today.strftime("%d/%m/%Y")
-
-print(" " "\n")
-
-print(tabulate([['Matemática', 1], ['Química', 2], ['Biologia', 3], ['Português', 4], ['Cultura Religiosa', 5], ['Filosofia', 6], ['Física', 7], ['Artes', 8], ['Literatura', 9], ['Geografia', 10], ['História', 11], ['Inglês', 12], ['Sociologia', 13],  ], headers=['Matéria', 'Num'], tablefmt='orgtbl'))
-
-prof = int(input("Qual o professor? "))
-
-nome = input("Nome do arquivo: ")
->>>>>>> 512cb7a71fc2811767d78396f83f5014b8ed81ee
 
 # Formata a data, para dd/mm/AAAA 
 data  = hoje.strftime("%d/%m/%Y")
+
 
 def doc(n):
     # Acessa o modelo template para tarefas em geral, e guarda na variável tmp
@@ -48,6 +35,7 @@ def doc(n):
     tmp.render(context[n])
     # Salva o novo arquivo com o nome escolhido
     tmp.save("%s.docx" % (nome,))
+
 
 def red(p):
     # Acessa o modelo template para a redação, e guarda na variável temp
@@ -90,7 +78,7 @@ prof = int(input("Qual a matéria? "))
 if prof == 14:
     theme = input("Qual o tema? ")
     red(prof)
-# Porém, se essa estiver no intervalo [1,14) , será utilizada a função para tarefas.
+# Porém, se essa estiver no intervalo [1,14), será utilizada a função para tarefas.
 elif prof == range(1,14):
     nome = input("Nome do arquivo: ")
     doc(prof)
