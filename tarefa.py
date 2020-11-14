@@ -4,8 +4,22 @@ from docxtpl import DocxTemplate
 from tabulate import tabulate
 from datetime import date
 
+<<<<<<< HEAD
 #Pega a informação da data de hoje, e guarda na variável 'hoje'
 hoje = date.today()
+=======
+today = date.today()
+
+data  = today.strftime("%d/%m/%Y")
+
+print(" " "\n")
+
+print(tabulate([['Matemática', 1], ['Química', 2], ['Biologia', 3], ['Português', 4], ['Cultura Religiosa', 5], ['Filosofia', 6], ['Física', 7], ['Artes', 8], ['Literatura', 9], ['Geografia', 10], ['História', 11], ['Inglês', 12], ['Sociologia', 13],  ], headers=['Matéria', 'Num'], tablefmt='orgtbl'))
+
+prof = int(input("Qual o professor? "))
+
+nome = input("Nome do arquivo: ")
+>>>>>>> 512cb7a71fc2811767d78396f83f5014b8ed81ee
 
 # Formata a data, para dd/mm/AAAA 
 data  = hoje.strftime("%d/%m/%Y")
