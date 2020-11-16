@@ -48,7 +48,7 @@ def red(p):
     # Salva o novo arquivo, especificando o tema "redação_'tema'.docx"
     temp.save("redação_" + "%s.docx" % (theme,))
 
-print(" " "\n")
+print("\n")
 
 # Produz uma tabela relacionando as matérias com seus respectivos números
 print(tabulate([
