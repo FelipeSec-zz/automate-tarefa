@@ -21,4 +21,4 @@ python tarefa.py
 
 E navegue pelas opções do programa, informando o número do professor, e o nome do arquivo.
 
-[<img src="https://i.imgur.com/YWk68z3.png">](Exemplo)
+[<img src="https://i.imgur.com/uC6dVHD.png">](Exemplo)
