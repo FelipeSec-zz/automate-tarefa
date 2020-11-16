@@ -77,7 +77,7 @@ prof = int(input("Qual a matéria? "))
 if prof == 14:
     theme = input("Qual o tema? ")
     red(prof)
-# Porém, se essa estiver no intervalo [1,14), será utilizada a função para tarefas.
+# Porém, se essa estiver no intervalo [1,14] , será utilizada a função para tarefas.
 else:
     nome = input("Nome do arquivo: ")
     doc(prof)
